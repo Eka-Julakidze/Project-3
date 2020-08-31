@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+margin: 0 auto;
+background-color: #fff;
+font-size: 20px;
+font-family: 'Nunito', 'Helvetica';
+text-rendering: optimizeLegibility; 
+}
+.container {
+    margin: 50px auto;
+    width: 576px;
+    height: 540px;object-fit: contain;
+    background-color: #555;
+}
+.caller-box {
+    position: absolute;
+    margin: 50px 85px;
+    width: 410px;
+    height: 340px;
+    background-color: #5265e8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.caller-box p {
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+}
+.minus {
+    float: right;
+    color: #fff;
+    margin-top: -50px;
+    margin-right: 20px;
+    opacity: 0.5
+}
+.visitor {
+    position: relative;
+    top: 20px;
+    left: 135px;
+    background-color: #5265e8;
+    color: #fff;
+    font-size: 700%;
+    border: 4px solid #1d35d9;
+    border-radius: 55%;
+    -webkit-border-radius: 55%;
+    -moz-border-radius: 55%;
+    -ms-border-radius: 55%;
+    -o-border-radius: 55%;
+}
+.info-icons {
+    margin-top: 45px;
+    text-align: center;
+}
+.info-icons li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 120%;
+    color: #fff;
+    font-weight: 100;
+}
+.buttons-and-timer {
+    width: 410px;
+    height: 100px;
+    background-color: #fff;
+    color: #555;
+}
+.buttons-and-timer p {color: #555;}
+a {display: inline-block}
